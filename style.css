@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/Screenshot\ 2025-04-25\ 163227.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+}
+.container{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    height: 50vh;
+    color: white;
+}
+h1{
+    font-size: 60px;
+    -webkit-text-stroke: 2px rgb(5, 5, 59);
+}
+h2{
+    font-size: 60px;
+
+}
+button{
+    margin: 0.2em;
+    padding: 0.7em 2em;
+    border: 0ch;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid rgb(2,8,44);
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+button:active{
+    scale: .9;
+    filter: brightness(50%);
+    transition: 0.2s;
+}
+button:hover{
+    filter: opacity(40%);
+    transition: 0.2s;
+}
