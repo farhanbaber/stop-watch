@@ -1,0 +1,34 @@
+⏱️ Stopwatch App
+
+A simple and functional || stopwatch || application built using HTML | CSS | JavaScript. This app allows users to start | pause | reset | track time | with precision — ideal for basic timekeeping tasks.
+
+🔗 Live Demo: [Try the Stopwatch](https://farhanbaber.github.io/stop-watch/)
+
+---
+
+📋 Features
+
+- ▶️ Start the timer
+- ⏸️ Pause the timer
+- 🔁 Reset to 00:00
+- 🕒 Millisecond precision (optional)
+- 🖥️ Responsive layout (works on desktop and mobile)
+
+---
+
+ 🛠️ Technologies Used
+
+- HTML5 – Page structure  
+- CSS3 – Styling and layout  
+- JavaScript (ES6) – Timer logic and DOM control    
+
+---
+
+ 📂 Project Structure
+
+```bash
+stopwatch-app/
+├── index.html         # UI structure
+├── style.css          # App styling
+├── script.js          # Stopwatch logic
+└── README.file        # Project documentation
